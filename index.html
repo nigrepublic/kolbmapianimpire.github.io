@@ -30,7 +30,7 @@
   text-decoration: Comic Sans MS;
   font-weight: bold;
   border-left: 2px solid #A37E00;
-  display: block;
+  display: inline !important;
 }
 #navbar li {
   border-left: 10px solid #A37E00;
@@ -38,11 +38,11 @@
 }
 	 </style>
 	 <nav id="navbar">
-	 <a href="index.html">Главная</a>
-	 <a href="letopis.html">Летопись</a>
-	 <a href="tutorials.html" >Туториалы</a>
-	 <a href="onas.html" >О нас </a>
-	 <a href="mapperi.html" >Мапперы</a>
+	 <a class="nav-scroller__item" href="index.html">Главная</a>
+	 <a class="nav-scroller__item" href="letopis.html">Летопись</a>
+	 <a class="nav-scroller__item" href="tutorials.html" >Туториалы</a>
+	 <a class="nav-scroller__item" href="onas.html" >О нас </a>
+	 <a class="nav-scroller__item" href="mapperi.html" >Мапперы</a>
 	</nav>
  <!--Конец меню-->
  </div>
@@ -82,12 +82,11 @@
 	</div>
   </div>
 <nav>
-	<footer>
+	<footer id="ft">
 		<style>
-		div {
-		background-color: #323232
-		background: #323232
-		padding: 10px
+		ft {
+		background: #323232;
+		padding: 10px;
 		}
 		</style>
 		<p>Данный документ не нарушает никакие авторские права, все изображения и информация взяты из нашего сервера или самостоятельно произведены.</p>
