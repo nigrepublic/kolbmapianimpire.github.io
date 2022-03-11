@@ -1,1 +1,0 @@
-# kolbmap.github.io
